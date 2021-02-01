@@ -311,3 +311,4 @@ for i in range(epochs):
     if i % 100 == 0:
         print("Epoch: {}, Loss: {:.3f}".format(i + 1, loss / steps_per_epoch))
         losses.append(loss / steps_per_epoch)
+print('111')
